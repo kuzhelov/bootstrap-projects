@@ -1,1 +1,0 @@
-Vendor files should goes here providing the same file structure that has been used in the resources directory
