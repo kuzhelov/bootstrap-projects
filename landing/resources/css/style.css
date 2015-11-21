@@ -1,9 +1,48 @@
 * {
 	padding: 0;
 	margin: 0;
+    box-sizing: border-box;
 }
 
 /* body {
 	color: #000;
 	background: #fff;
 } */
+
+.em-text {
+    color: #1acc98 !important;
+}
+.page-heading {
+    margin-top: 50px;
+    padding-bottom: 0;
+}
+
+.page-heading .store-icon {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    max-width: 40%;
+}
+
+.page-heading .store-icon+.store-icon {
+    margin-left: 15px;
+}
+
+.page-heading .store-icon>img {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+}
+
+.subtitle {
+    margin-bottom: 50px !important;
+}
+
+.page-heading .side-image {
+    display: inline-block;
+    margin: 0 !important;
+}
+
+.heading-main {
+    margin-top: 90px
+}
