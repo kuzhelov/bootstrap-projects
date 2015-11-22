@@ -14,7 +14,30 @@
 }
 .page-heading {
     margin-top: 50px;
+    height: 800px;
     padding-bottom: 0;
+    background: transparent;
+}
+
+.page-heading::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    height: 800px;
+    width: 100%;
+    margin-top: 50px;
+    z-index: -1;
+
+    background: url(../img/photoshare-heading.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    background-size: 130% auto;
+
+    -webkit-filter: brightness(95%);
+            filter: brightness(95%);
 }
 
 .page-heading .store-icon {
@@ -34,17 +57,22 @@
     max-width: 100%;
 }
 
-.subtitle {
-    margin-bottom: 50px !important;
+.heading-subtitle {
+    margin-bottom: 35px !important;
+    
+    color: #fff;
+    letter-spacing: 0.15rem;
 }
 
 .page-heading .side-image {
     display: inline-block;
-    margin: 0 !important;
+    height: 500px;
+    margin: 0;
+    float: right;
 }
 
 .heading-main {
-    margin-top: 90px
+    margin-top: 0px
 }
 
 .row-flex {
@@ -52,9 +80,28 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
-    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
 }
 
 .flex-bottom {
-    align-self: flex-end;
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+}
+
+.flex-center {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+}
+.full-height {
+    height: 100%;
+}
+
+.heading-title {
+    color: #fff !important;
+    letter-spacing: 0.35rem;
+}
 }
