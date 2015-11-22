@@ -1,3 +1,42 @@
+#about-title-bar {
+    margin-top: 50px;
+    color: #fff;
+    background-color: #1caa98;
+    letter-spacing: 1.1px;
+}
+
+.about-title-bar-heading {
+    line-height: 80px;
+}
+
+#about-main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    font-size: 16px;
+    color: #555;
+    line-height: 2.5rem;
+}
+
+
+
+.about-main-text::first-letter {
+    color: #1caa98;
+    padding-left: 7px;
+    padding-right: 17px;
+    font-size: 40px;
+    line-height: 1;
+    float: left;
+}
+
+#about-milestones {
+    margin-top: 50px;
+}
+
+.about-milestone-title .glyphicon {
+    padding-right: 10px;
+}
+
 * {
 	padding: 0;
 	margin: 0;
