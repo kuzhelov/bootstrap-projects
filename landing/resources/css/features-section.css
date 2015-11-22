@@ -1,0 +1,42 @@
+#features {
+    margin-top: 80px;
+    
+    background-color: #1caa98;
+    color: #fff;
+}
+
+#features ul {
+    list-style: none;
+}
+
+.features-feature {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.4;
+    letter-spacing: 1px;
+}
+
+.features-feature .glyphicon {
+    padding-right: 15px;
+}
+
+.features-heading {
+    margin-bottom: 20px;
+    
+    letter-spacing: 2px;
+}
+
+.features-list {
+    padding-left:25px;
+}
+
+.features-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features-section {
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

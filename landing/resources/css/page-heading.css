@@ -1,0 +1,67 @@
+.page-heading {
+    margin-top: 50px;
+    height: 800px;
+    padding-bottom: 0;
+    background: transparent;
+}
+
+.page-heading::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+    height: 800px;
+    width: 100%;
+    margin-top: 50px;
+    z-index: -1;
+
+    background: url(../img/photoshare-heading.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    background-size: 130% auto;
+
+    -webkit-filter: brightness(95%);
+            filter: brightness(95%);
+}
+
+.page-heading .store-icon {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    max-width: 40%;
+}
+
+.page-heading .store-icon+.store-icon {
+    margin-left: 15px;
+}
+
+.page-heading .store-icon>img {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+}
+
+.heading-subtitle {
+    margin-bottom: 35px !important;
+    
+    color: #fff;
+    letter-spacing: 0.15rem;
+}
+
+.page-heading .side-image {
+    display: inline-block;
+    height: 500px;
+    margin: 0;
+    float: right;
+}
+
+.heading-main {
+    margin-top: 0px
+}
+
+.heading-title {
+    color: #fff !important;
+    letter-spacing: 0.35rem;
+}

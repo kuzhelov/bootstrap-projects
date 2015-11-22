@@ -1,0 +1,38 @@
+#footer {
+    background: #333;
+    color: #fff;
+    
+    line-height: 8.5rem;
+}
+
+#footer .container {
+    padding-bottom: 0 !important;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#footer ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#footer p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+#footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.footer-copyright {
+    float: right;
+}
+
+.footer-navigation-section {
+    padding-left: 25px;
+}
