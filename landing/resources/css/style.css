@@ -96,6 +96,27 @@
         -ms-flex-item-align: center;
             align-self: center;
 }
+
+.demo-img {
+    border: 1px solid #aaa;
+    box-shadow: 1px 1px 10px #999;
+    padding: 5px;
+    height: 240px;
+    width: 100%;
+}
+
+#demos {
+    padding-top: 80px;
+}
+
+.demo-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.demo-description {
+    padding-top: 20px
+}
 .full-height {
     height: 100%;
 }
@@ -104,4 +125,11 @@
     color: #fff !important;
     letter-spacing: 0.35rem;
 }
+
+.demo-read-more {
+    margin-top: 10px
+}
+
+.demo-description-text {
+    margin-top: 25px
 }
