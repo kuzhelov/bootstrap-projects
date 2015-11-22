@@ -37,6 +37,10 @@
     padding-right: 10px;
 }
 
+.about-main-container {
+    padding-right: 50px;
+}
+
 * {
 	padding: 0;
 	margin: 0;
