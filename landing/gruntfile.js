@@ -1,10 +1,5 @@
 module.exports = function (grunt) {
     grunt.initConfig({
-        autoprefixer: {
-            dist: {
-                src: "resources/**/*.css"
-            }
-        },
         concat: {
             css: {
                 files: [{
@@ -13,20 +8,25 @@ module.exports = function (grunt) {
                 }]
             }
         },
+        autoprefixer: {
+            dist: {
+                src: "resources/css/style.css"
+            }
+        },
         watch: {
-            prefixStyles: {
-                files: ['resources/**/*.css'],
-                tasks: ['autoprefixer'],
-                options: {
-                    debounceDelay: 5000
-                }
-            },
             concatStyles: {
                 options: {
                     debounceDelay: 5000
                 },
                 files: ['resources/**/*.css', '!resources/css/style.css'],
                 tasks: ['concat']
+            },
+            prefixStyles: {
+                files: ['resources/css/style.css'],
+                tasks: ['autoprefixer'],
+                options: {
+                    debounceDelay: 5000
+                }
             }
         }
     });
